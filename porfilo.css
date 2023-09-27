@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.wrapper{
+    height: 100%;
+    width: 100%;
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    /* background:  rgb(25, 25, 25) ; */
+    background: linear-gradient( 90deg, rgba(72, 27, 27, 0.904) 0%, rgba(72, 27, 27, 0.904) 45%, rgb(252, 134, 134) 45%, rgb(252, 134, 134) 55%, rgba(72, 27, 27, 0.904) 55%, rgba(72, 27, 27, 0.904) 100%);
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(252, 134, 134);
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 10px white;
+    -moz-box-shadow: 0px 0px 10px white;
+    box-shadow: 0px 0px 10px white;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(245, 163, 163);
+}
+.section{
+    overflow: hidden;
+    min-height: 65vh;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    text-align: center;
+
+    /* Parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#sectionP1 {
+    background: url("images/asther-green-background-1.jpg");
+}
+#sectionP2 {
+    background: url("images/asther-green-background-1.jpg");
+}
+#sectionP3 {
+    background: url("images/asther-green-background-1.jpg");
+}
+
+#portfolio--h1 {
+    position:relative;
+}
+#portfolio---h1 {    
+    position: absolute;
+    left: 50%;
+    top: 50%; 
+    transform: translate(-50%, -55%);
+    font-size: 38pt;
+    color: rgb(252, 134, 134); 
+}
+#portfolio-h1 {
+    position: relative;
+    background-color: white;
+    height: 4px;
+    /* width: 50vw;
+    margin: auto; */
+}
+#portfolio-title{
+    padding-top: 19vh;
+    padding-bottom: 10vh;
+}
+
+
+#portfolio--h2 {
+    position:relative;
+}
+#portfolio---h2 {    
+    position: absolute;
+    left: 50%;
+    top: 50%; 
+    transform: translate(-60%, -30%);
+    font-size: 38pt;
+    color: rgba(252, 134, 134, 0.442); 
+}
+#portfolio-h2 {
+    position: relative;
+    font-size: 38pt;
+    color: rgb(252, 134, 134); 
+
+}
+    /* xplace-profile button */
+
+#xplace-profile {
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 100%;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 8vh 0  ;
+    cursor: pointer;
+    padding: .1em .3em;
+    
+  
+    --c: rgb(23 64 108);
+    background: linear-gradient(90deg, #0000 33%, #fff5, #0000 67%) var(--_p,100%)/300% no-repeat,
+    #ffffff87;
+    color: #0000;
+    border-radius: 0.2cm;
+    border: #fff 2px ridge;
+    transform: perspective(500px) rotateY(calc(20deg*var(--_i,-0.8)));
+    text-shadow: calc(var(--_i,-0.8)* 0.08em) -.01em 0   var(--c),
+      calc(var(--_i,-0.8)*-0.08em)  .01em 2px #0004;
+    outline-offset: .1em;
+    transition: 0.3s;
+  }
+  
+  #xplace-profile:hover,
+  #xplace-profile:focus-visible {
+    --_p: 0%;
+    --_i: 0.8;
+  }
+  
+  #xplace-profile:active {
+    text-shadow: none;
+    color: var(--c);
+    box-shadow: inset 0 0 9e9q #0005;
+    transition: 0s;
+  }
+
+    /* end xplace-profile button */
